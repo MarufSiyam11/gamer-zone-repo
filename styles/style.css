@@ -184,7 +184,7 @@ text-transform: uppercase;
 .footer-container{
     background-color: #0B0223;
     width: 100%;
-height: 879px;
+height: 500px;
 }
 .footer-name{
     color: #fff;
@@ -227,6 +227,9 @@ height: 879px;
     header{
         padding: 20px;
     }
+    .footer-icon,
+    .footer-logo,
+    .footer-img,
     .button-container,
     .main-container,
     .card-container,
@@ -260,6 +263,10 @@ height: 879px;
     header{
         padding: 60px;
     }
+
+    .footer-icon,
+    .footer-logo,
+    .footer-img,
     .button-container,
     .main-container,
     .card-container,
