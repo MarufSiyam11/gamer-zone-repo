@@ -206,7 +206,18 @@ height: 879px;
 .game-in{
     color: #FFF;
 }
-
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFF;
+    font-size: 25px;
+    gap: 20px;
+}
+.footer-p{
+    color: #685b5b;
+    font-size: 16px;
+}
 
 
 
