@@ -164,6 +164,48 @@ text-transform: uppercase;
     position: relative;
     bottom: 250px;
   }
+.button-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.button-img{
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.button-img:hover{
+  border-radius: 8px;
+  border: 1px solid gray;
+  color: #F948B2;
+
+}
+.footer-container{
+    background-color: #0B0223;
+    width: 100%;
+height: 879px;
+}
+.footer-name{
+    color: #fff;
+}
+.footer-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.game-in{
+    color: #FFF;
+}
 
 
 
@@ -174,6 +216,7 @@ text-transform: uppercase;
     header{
         padding: 20px;
     }
+    .button-container,
     .main-container,
     .card-container,
     .logo-contaier{
@@ -191,6 +234,14 @@ text-transform: uppercase;
       .game-img{
         width: 90%;
       }
+      .button-container{
+        text-align: center;
+        justify-content: center;
+      }
+      .button-container{
+        width: 100%;
+        margin: 20px;
+      }
      
 }
 /* tablet or dediun devices */
@@ -198,6 +249,7 @@ text-transform: uppercase;
     header{
         padding: 60px;
     }
+    .button-container,
     .main-container,
     .card-container,
   .logo-contaier{
